@@ -1,0 +1,74 @@
+body {
+    background-color: #f9f9f9;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .form-card {
+    background: #fff;
+    border-radius: 8px;
+    width: 100%;
+    max-width: 480px;
+  }
+  
+  .logo {
+    max-width: 150px;
+    display: block;
+    margin: 0 auto;
+  }
+  
+  /* Modern Tab Design */
+  .nav-pills .custom-tab {
+    background-color: #f1f1f1;
+    color: #333;
+    font-weight: 600;
+    font-size: 16px;
+    padding: 10px 20px;
+    border-radius: 50px;
+    transition: all 0.3s ease-in-out;
+    border: 1px solid #ddd;
+  }
+  
+  .nav-pills .custom-tab.active {
+    background-color: #007bff;
+    color: #fff;
+    border-color: #007bff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .nav-pills .custom-tab:hover {
+    background-color: #0056b3;
+    color: #fff;
+    border-color: #0056b3;
+    transform: translateY(-2px);
+  }
+  
+  .nav-pills .custom-tab i {
+    font-size: 18px;
+  }
+  
+  /* Input Fields */
+  input {
+    border-radius: 6px;
+  }
+  
+  button {
+    background-color: #007bff;
+    border: none;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 6px;
+    padding: 10px;
+    transition: all 0.3s;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  a {
+    color: #007bff;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }

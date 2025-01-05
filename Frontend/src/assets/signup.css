@@ -1,0 +1,43 @@
+
+body {
+  background-color: #f9f9f9;
+  font-family: "Arial", sans-serif;
+}
+
+.form-card {
+  background: #fff;
+  border-radius: 8px;
+  width: 100%;
+  max-width: 480px;
+}
+
+.logo {
+  max-width: 150px;
+}
+
+input,
+select {
+  border-radius: 6px;
+}
+
+button {
+  background-color: #007bff;
+  border: none;
+  font-size: 16px;
+  font-weight: 600;
+  border-radius: 6px;
+  padding: 10px;
+  transition: all 0.3s;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+a {
+  color: #007bff;
+}
+
+a:hover {
+  text-decoration: underline;
+}

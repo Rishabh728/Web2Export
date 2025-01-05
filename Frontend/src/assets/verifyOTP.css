@@ -1,0 +1,61 @@
+body {
+    background-color: #f9f9f9;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .modal-content {
+    border-radius: 12px;
+    overflow: hidden;
+  }
+  
+  .modal-header {
+    background-color: #007bff;
+    color: #fff;
+    padding: 1rem;
+  }
+  
+  .modal-body {
+    padding: 1.5rem;
+  }
+  
+  /* OTP Input Boxes */
+  .otp-box {
+    width: 50px;
+    height: 50px;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 6px;
+    border: 1px solid #ddd;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .otp-box:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 6px rgba(0, 123, 255, 0.3);
+  }
+  
+  .otp-input {
+    justify-content: center;
+    align-items: center;
+  }
+  
+  button {
+    font-size: 16px;
+    border-radius: 6px;
+    padding: 10px;
+    transition: all 0.3s;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Resend Link */
+  a {
+    color: #007bff;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  

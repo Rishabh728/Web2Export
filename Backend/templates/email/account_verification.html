@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>OTP Verification</title>
+  <style>
+    body {
+      font-family: 'Arial', sans-serif;
+      background-color: #f8f9fa;
+      margin: 0;
+      padding: 0;
+    }
+    .container {
+      max-width: 600px;
+      margin: 50px auto;
+    }
+    .card {
+      border: none;
+      border-radius: 8px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    }
+    .card-body {
+      padding: 30px;
+    }
+    .card-title {
+      font-size: 24px;
+      margin-bottom: 20px;
+    }
+    .card-text {
+      font-size: 16px;
+      line-height: 1.6;
+    }
+    strong {
+      color: #007bff;
+    }
+
+    /* Mobile Styles */
+    @media (max-width: 576px) {
+      .card-body {
+        padding: 20px;
+      }
+      .card-title {
+        font-size: 20px;
+        margin-bottom: 15px;
+      }
+      .card-text {
+        font-size: 14px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="card">
+      <div class="card-body">
+        <h2 class="card-title">OTP Verification</h2>
+        <p class="card-text">
+          Hi {{name}},
+
+          Thank you for signing up with [Your App Name]! To complete the registration process, please use the following OTP (One-Time Password):
+
+          <strong>Your OTP: {{OTP}}</strong>
+
+           Please do not share it with anyone.
+
+          If you did not sign up for [Your App Name], please ignore this email.
+
+          Thank you,
+          The [Your App Name] Team
+        </p>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
